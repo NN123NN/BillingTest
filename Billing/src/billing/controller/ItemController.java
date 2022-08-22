@@ -30,8 +30,7 @@ public class ItemController {
 			switch(option) {
 			case 1: ItemDao.getAllItems(); break;
 			case 2: updateItem();break;
-			case 3: scanItems();break;
-			//case 4: getBill();break;
+			case 3: scanItems();break;			
 			default: System.out.println("Invalid input");
 			}
 						
